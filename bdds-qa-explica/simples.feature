@@ -1,4 +1,4 @@
-Feature: Tela QA Explica
+Feature: Site QA Explica
 
     Background: Testando as Funcionalidades da Tela QA Explica
 
@@ -9,7 +9,7 @@ Feature: Tela QA Explica
 
     Scenario: Visualizar todas as postagens
         Given estou na tela principal do QA Explica
-        When quero ver todas as postagensD
+        When quero ver todas as postagens
         Then mostrará uma lista com todas as postagens, aparecendo primeiro as mais recentes
 
     Scenario: Visualizar somente as postagens de BDD
@@ -27,7 +27,7 @@ Feature: Tela QA Explica
         When quero ver as postagens relacionadas a Cypress para Tela
         Then mostrará uma lista com as postagens da categoria Cypress para Tela        
 
-    Scenario: Visualizar somente as postagens sobre indicação de conteúdo
+    Scenario: Visualizar somente as postagens sobre Indicação de Conteúdo
         Given estou na tela principal do QA Explica
         When quero ver as postagens de indicações de conteúdo
         Then mostrará uma lista com as indicações de conteúdo
